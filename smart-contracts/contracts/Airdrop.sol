@@ -1,12 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "https://raw.githubusercontent.com/0xPolygonID/contracts/main/contracts/verifiers/ZKPVerifier.sol";
+// import "https://raw.githubusercontent.com/0xPolygonID/contracts/main/contracts/verifiers/ZKPVerifier.sol";
 import "@openzeppelin/contracts/access/Ownable.sol"; // import Ownable contract from OpenZeppelin
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol"; // import ERC20 token interface from OpenZeppelin
 import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol"; // import SafeERC20 library from OpenZeppelin for safe token transfers
 import "@openzeppelin/contracts/utils/cryptography/ECDSA.sol"; // import Elliptic Curve Digital Signature Algorithm (ECDSA) library from OpenZeppelin for signature verification
 import "@openzeppelin/contracts/utils/math/SafeMath.sol"; // import SafeMath library from OpenZeppelin for safe mathematical operations
+import "./ZKPVerifier.sol";
 
 interface IZKPVerifier {
     function submitZKPResponse(
