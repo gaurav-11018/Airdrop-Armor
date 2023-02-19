@@ -1,4 +1,5 @@
-# SybilAirdrop
+# Sybil Resistant Airdrop Using Polygon ID and Zero-Knowledge-Proof
+
 A smart contract on the Polygon network that facilitates Sybil-resistant airdrops using POLYGON ID and zero-knowledge proofs.
 
 ## Overview
