@@ -1,5 +1,5 @@
 # SybilAirdrop
-A smart contract on the Polygon network that facilitates Sybil-resistant airdrops using zero-knowledge proofs.
+A smart contract on the Polygon network that facilitates Sybil-resistant airdrops using POLYGON ID and zero-knowledge proofs.
 
 ## Installation
 This project requires Node.js v12+ and npm v5+ to run.
