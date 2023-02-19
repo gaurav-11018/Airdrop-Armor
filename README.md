@@ -5,7 +5,7 @@ A smart contract on the Polygon network that facilitates Sybil-resistant airdrop
 
 The Sybil Airdrop project is an Ethereum-based smart contract that enables the distribution of a fixed amount of ERC20 tokens to a maximum number of addresses while ensuring Sybil resistance. The contract uses zero-knowledge proofs (ZKPs) to verify the identity of the recipients and Polygon ID to make it resistant to Sybil attacks.
 
-Importance of Using Polygon ID and ZKP
+## Importance of Using Polygon ID and ZKP
 
 Polygon ID is a decentralized identity solution that provides a unique ID to each user on the Polygon network. It helps to solve the problem of Sybil attacks by ensuring that each user has a unique identity that can be verified by the network. This means that the contract can easily check if the recipient has already claimed their share of the airdrop and prevent them from claiming again.
 
@@ -39,31 +39,30 @@ The zero-knowledge proof generates a proof that the user owns a unique and valid
 ## Deployment
 The smart contract is deployed on the Mumbai testnet using Remix with the following configuration:
 
-ERC20 token: USDC (0x2058A9D7613eEE744279e3856Ef0eAda5FCbaA7e)
+ERC20 token: USDC (0x463c96a29f442c7fac48bc5b7d468f7b5dd37c94)
+
 Amount per address: 1000
+
 Maximum addresses: 10
+
 Maximum amount: 10000
+
 ZKP verifier: (0xdD6596cA1f2fae8E8DD1C9a7C45DdFc18d2318e1)
+
 ZKP request ID: 1
-The deployed contract can be found at the following address:
 
-Copy code
-0x3E3D8B39CB2eaf71FB051D1C0123d4A4C546FE63
-Screenshots
-Home
-Home
+## The deployed contract can be found at the following address:  0x0ba521c07aeee9ef89173e08b3ab23f5e36a8a1d
 
-Connect Wallet
-Connect Wallet
+## Screenshots
 
-Claim Airdrop
-Claim Airdrop
+# 1
+![op](https://user-images.githubusercontent.com/79459872/219967101-18d64d5a-8002-44fa-ba3f-547431907c1f.png)
 
-ZKP Prover
-ZKP Prover
+# 2
+![op2](https://user-images.githubusercontent.com/79459872/219967108-6d706e6e-a65d-4225-8ce5-3ec65cc303f7.png)
 
-ZKP Verifier
-ZKP Verifier
+# 3
+![op3](https://user-images.githubusercontent.com/79459872/219967118-89cf21c0-9065-4585-a241-51a9af8b6db8.jpeg)
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
