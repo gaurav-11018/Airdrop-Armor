@@ -1,8 +1,17 @@
 # SybilAirdrop
 A smart contract on the Polygon network that facilitates Sybil-resistant airdrops using POLYGON ID and zero-knowledge proofs.
 
-## Installation
-This project requires Node.js v12+ and npm v5+ to run.
+## Overview
+
+The Sybil Airdrop project is an Ethereum-based smart contract that enables the distribution of a fixed amount of ERC20 tokens to a maximum number of addresses while ensuring Sybil resistance. The contract uses zero-knowledge proofs (ZKPs) to verify the identity of the recipients and Polygon ID to make it resistant to Sybil attacks.
+
+Importance of Using Polygon ID and ZKP
+
+Polygon ID is a decentralized identity solution that provides a unique ID to each user on the Polygon network. It helps to solve the problem of Sybil attacks by ensuring that each user has a unique identity that can be verified by the network. This means that the contract can easily check if the recipient has already claimed their share of the airdrop and prevent them from claiming again.
+
+Zero-knowledge proofs (ZKPs) are cryptographic techniques that enable two parties to prove the validity of a statement without revealing any additional information. In the context of the Sybil Airdrop, the ZKP is used to verify that the recipient is who they claim to be without revealing their actual identity. This makes it impossible for an attacker to claim the airdrop multiple times using different identities, thereby ensuring Sybil resistance.
+
+The combination of Polygon ID and ZKPs in the Sybil Airdrop contract provides a robust and secure solution for distributing airdrops while preventing Sybil attacks.
 
 
 ## Smart Contract
