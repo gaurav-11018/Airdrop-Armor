@@ -1,8 +1,6 @@
 # Airdrop-Armor
 
-## Securing Airdrops Using Merkle-Tree Approach
-
-# Merkle Airdrop Project
+## Securing Airdrops Using Merkle-Tree Approach (Merkle Airdrop Project)
 
 ## Overview
 
